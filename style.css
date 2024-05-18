@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none outside none;
+}
+
+a,
+button {
+    all: unset;
+}
+
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 650px;
+    background-image: url(img/header.png);
+    padding: 0 165px;
+    padding-top: 64px;
+    margin-bottom: 160px;
+}
+
+.navbar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.item {
+    margin-right: 32px;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.item-link {
+    color: #FFF;
+    font-family: "Alata";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.header-content {
+    width: 650px;
+    height: 278px;
+    border: 2px solid #FFF;
+    padding: 40px;
+}
+
+.header-content p {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+/* about */
+.about {
+    width: 1111px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    margin-bottom: 184px;
+}
+
+.about-img {
+    position: absolute;
+    width: 719px;
+    height: 500px;
+    z-index: -1;
+}
+
+.about-content {
+    position: absolute;
+    top: 183px;
+    right: 1px;
+    background: #FFF;
+    width: 541px;
+    height: 317px;
+    z-index: 1;
+    padding: 96px 0 0 96px;
+}
+
+.about-title {
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.about-text {
+    color: #000;
+    font-family: Alata;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+/*creation-cards*/
+.creations {
+    display: flex;
+    margin: auto 0;
+    flex-direction: column;
+}
+
+.creation-top {
+    width: 1111px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    background-color: none;
+}
+
+.creation-top p {
+    color: #000;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.creation-top button {
+    width: 157px;
+    height: 40px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+}
+
+.creation-cards {
+    margin: 0 auto;
+    width: 1114px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 184px;
+}
+
+.creation-card {
+    position: relative;
+    width: 256px;
+    height: 450px;
+}
+
+.creation-card img {
+    position: absolute;
+    z-index: 1;
+}
+
+.creation-card p {
+    position: absolute;
+    z-index: 2;
+    left: 32px;
+    bottom: 32px;
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+
+footer {
+    width: 1444;
+    height: 160px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 165px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left img {
+    width: 144px;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 24px;
+}
+
+.social-icons img {
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.social-icons img:last-child {
+    margin-right: 0;
+}
+
+.copyright{
+    color: #FFF;
+    font-family: "Alata";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: .5;
+}
